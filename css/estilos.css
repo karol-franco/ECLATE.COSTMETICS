@@ -1,0 +1,411 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    text-align: center;
+}
+nav{
+    background: rgb(255, 255, 255);  /*color de fondo*/
+    color: rgb(14, 12, 13); /*color de letra*/
+    height: 9em; /*alto*/
+    position: fixed;/*que el menu no se mueva de una posicion*/
+    width: 100%;
+}
+nav ul li{
+    display: inline-block; /*alinear horizontalmente*/
+    margin-right: 2em;
+    line-height: 4em;   /*alinear verticalmente*/
+    margin-top: 0em;
+}
+nav ul li a:hover{
+    border-bottom: rgb(230, 9, 119) solid ;
+}
+
+
+nav ul li a{
+    color: rgb(255, 255, 255); /*color de fuente*/
+    font-size: 0.8em;  /*tamaño de la fuente*/
+    text-decoration: none; /*decoracion de texto= ninguna*/
+}
+.nombre{
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+header{
+    padding: 8em 0em 0em 0em;
+    width: 100%;
+    background-image:url('../img/img.fondo.png') ;
+}
+.cositas{
+    background-color: rgb(255, 255, 255);
+    padding: 8em 0em 0em 0em;
+    width: 100%;
+}
+.fila{
+    width: 100%;
+}
+.informacion{
+    width: 45%;
+    margin: 1em;
+    padding: 1em;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+h2{
+    text-align: left;
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+}
+.descripcion{
+    font-size: 1.2em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+.portada{
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    margin-left: 2em;
+    margin-right: -2em;
+    vertical-align: top;
+}
+.user{
+    display: inline block;
+}
+.part1{
+    width: 55%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.5em;
+}
+.part2{
+    width: 20%;
+    display: inline-block;
+    font-size: 1.4em;
+}
+.dinero{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+.mony{
+    font-size: 2em;
+    margin-right: 14em;
+}
+.icono{
+    text-align: right;
+    padding: 0.5em;
+}
+p{
+    color: rgb(221, 15, 138);
+    font-size: 0.7em;
+}
+.productos{
+    width: 97%;
+    vertical-align: top;
+    border: 1px rgb(165, 34, 56) solid;
+    padding: 1em;
+    background-color:  black;
+
+}
+.dos{
+    width: 21%;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 1em;
+    background-color: rgb(214, 214, 213);
+    border-radius: 1em;
+}
+.titulopro{
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+.cata1{
+    width: 250px;
+    text-align: center;
+}
+.marca{
+    text-align: left;
+
+}
+.des{
+    text-align: left;
+    font-size: 0.8em;
+    padding: 0.5em;
+    color: black;
+}
+.boton{
+
+    width: 1em 1em;
+    background: linear-gradient(70deg,rgb(255, 72, 102),rgb(255, 152, 152));
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 0.8em;
+    border: none;
+    font-weight: bold;
+    margin-right: 11em;
+    border-radius: 1em;
+}
+footer{
+    background: rgb(177, 113, 113);
+    color: rgb(204, 74, 74);
+    padding: 3em;
+}
+footer i{
+    font-size: 1.3em;
+    margin:  0.5em 0.3em;
+    
+}
+footer a{
+    color: rgb(44, 40, 40);
+    text-decoration: none;
+}
+/*estilos cuidado facial*/
+.cu1{
+    padding-bottom: 10em;
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    height: 20rem;
+}
+
+.cajafacial{
+    padding-bottom: 8em;
+}
+.pcu{
+    font-size: 4em;
+    color: rgb(3, 3, 3);
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.cosas{
+    width: 100%;
+    border: red solid;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+}
+.filafacial{
+    width: 98%;
+    border-color: aqua;
+}
+.cajafacial{
+    width: 45%;
+    display: inline-block;
+}
+.cajaimagenf{
+    width: 45%;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 2em;
+}
+.mancha{
+    width: 70%;
+}
+.skinkare{
+    margin-top: 7em;
+    background-color: black;
+}
+.uno{
+    margin-top: 2em;
+}
+.lips{
+    width: 50%;
+}
+.maqui{
+    font-size: 2em;
+    color: white;
+}
+.pag{
+    width: 100%;
+}
+.pie{
+    display: inline-block;
+    width: 33%;
+}
+.kiss{
+    margin: 2em;
+}
+#menu-toggle{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+@media screen and (min-width: 600px) and (max-width:900px){
+    .part2{
+        font-size: 1em;
+    }
+    .bro{
+        width: 0;
+    }
+    .mony{
+        font-size: 1.5em;
+    }
+    h1{
+        font-size: 1em;
+    }
+    .karito{
+        color: rgb(233, 10, 121);
+    }
+    h2{
+        font-size: 1.6em;
+    }
+    .maqui{
+        font-size: 1.3em;
+    }
+    .titulopro{
+        font-size: 1.7em;
+    }
+
+    .dos{
+        width: 45%;
+    }
+    .pie{
+        width: 25%;
+        margin: 1em;
+    }
+    /* cuidadofacial html*/
+    .mancha{
+        width: 80%;
+    }
+    .pcu{
+        vertical-align: top;
+        font-size: 2em;
+        margin: 0;
+    }
+    .cajafacial{
+        padding: 0;
+    }
+    .cu1{
+        padding-bottom:0;
+    }
+    .per{
+        margin-bottom: 2em;
+        font-size: 2em;
+        color: black;
+    }
+    p{
+        color: rgb(218, 13, 150);
+    }
+    .des{
+        color: black;
+    }
+}
+@media screen and ( max-width:601px){
+    h1{
+        font-size: 1em;
+        text-align: left;
+    
+    }
+    .part1{
+        width: 45%;
+        display: inline-block;
+        margin-right: 5em;
+    }
+    .mony{
+        display: none;
+        font-size:0 ;
+        color: rgb(8, 8, 8);
+    }
+    .dinero{
+        width: 0%;
+    }
+    .part2{
+        width: 50%;
+        display: inline-block;
+        margin-left: -6em;
+    }
+    /* Muestra el icono del menú en pantallas pequeñas */
+    .icono{
+        font-size: 0.8em;
+    }
+    ul{
+        width: 100%;
+        display: inline-block;
+    }
+    li{
+        display: inline-block;
+    }
+    nav ul li a{
+        font-size: 0.6em;
+    }
+    .bro{
+        display: none;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .informacion{
+        width: 90%;
+    }
+    .maqui{
+        font-size: 1.3em;
+        text-align: left;
+    }
+    .titulopro{
+        font-size: 1.8em;
+    }
+    .dos{
+        width: 80%;
+        display: block;
+    }
+    .pcu{
+        font-size: 1.5em;
+        color: rgb(3, 3, 3);
+        margin-top: 6em;
+        padding: 0%;
+    }
+    .cu1{
+        height: 0%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .filafacial{
+        padding-top: 2em;
+        height: 20em;
+        
+
+    }
+    .cajafacial{
+        vertical-align: bottom;
+    }
+    .cajaimagenf{
+        vertical-align: top;
+        margin-top: 8em;
+    }
+    .mancha{
+        width: 80%;
+    }
+    .pie{
+        width: 30%;
+        vertical-align: top;
+    }
+    .pag{
+        width: 100%;
+    }
+    col{
+        width: 100%;
+    }
+    .p{
+        text-align: left;
+    }
+    .des{
+        color: black;
+    }
+    .karito{
+        text-align: left;
+    }
+}
+
+    
+    

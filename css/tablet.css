@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@media screen and (min-width: 600px) and (max-width:900px){
+    .part2{
+        font-size: 0.2em;
+    }
+    .bro{
+        width: 20%;
+    }
+}
